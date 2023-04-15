@@ -1,0 +1,37 @@
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 250px;
+    align-items: center;
+}
+
+.intro_left {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    width: 600px;
+}
+
+.intro_title {
+    font-size: 60px;
+    margin: 0;
+}
+
+.intro_text {
+    margin: 0;
+    font-size: 17px;
+    line-height: 150%;
+}
+
+.intro_btn {
+    margin: 0;
+    text-decoration: none;
+    padding: 15px 100px;
+    background-color: #8f84f6;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    width: 250px;
+    border-radius: 25px;
+    text-align: center;
+}
